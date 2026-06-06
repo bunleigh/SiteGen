@@ -26,4 +26,9 @@ def split_nodes_delimiter(old_nodes, delimiter, text_type):
             inside_delim = not inside_delim
     
     return splits
-        
+
+def split_nodes_image(old_nodes: list[TextNode]) -> list[TextNode]:
+    pass
+
+def split_nodes_link(old_nodes: list[TextNode]) -> list[TextNode]:
+    pass
